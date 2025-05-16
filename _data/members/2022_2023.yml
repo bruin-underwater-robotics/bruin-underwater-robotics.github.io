@@ -1,0 +1,48 @@
+- id: leads
+  type: leads
+  leads:
+    - name: Scott Cao
+      role: Chief Executive Officer
+      photo: assets/images/members/2022_2023/scott_cao.jpg
+
+    - name: Daren He
+      role: Team President
+      photo: assets/images/members/2022_2023/daren_he.jpg
+
+- id: Aquaframe
+  name: Mechanical - Aquaframe
+  type: subteam
+  leads:
+    - name: Gregor Macdonald
+      photo: assets/images/members/2022_2023/gregor_macdonald.jpg
+    - name: George Colaco
+      photo: assets/images/members/2022_2023/george_colaco.png
+    - name: Andrew Yang
+      photo: assets/images/members/2022_2023/andrew_yang.png
+  members: Junha Park, Scott Bloom, Jacob Freund, Sharia Alam, Luke Woodhouse
+
+- id: Dive-Ops
+  name: Mechanical - Dive-Ops
+  type: subteam
+  leads:
+    - name: Ethan Lien
+      photo: assets/images/members/2022_2023/ethan_lien.png
+    - name: Abinav Kannan
+      photo: assets/images/members/2022_2023/abinav_kannan.png
+    - name: Bahaa Lawrence
+      photo: assets/images/members/2022_2023/bahaa_lawrence.png
+  members: Alex Mayo, Allison Liu, Priya Shah, Alexander Chen, Hy Ly, Alyssa Gee
+
+- id: Electronics
+  name: Electronics
+  type: subteam
+  leads:
+    - name: Alex Xu
+      photo: assets/images/members/2022_2023/alex_xu.png
+    - name: Robert Aguilar
+      photo: assets/images/members/2022_2023/robert_aguilar.png
+    - name: Benji Cruz
+      photo: assets/images/members/2022_2023/benji_cruz.jpg
+    - name: Vani Sharma
+      photo: assets/images/members/2022_2023/vani_sharma.png
+  members: Sophia Du, Stanley Wei, Daniel Hughes, Nikita Burger, Cameron Leary

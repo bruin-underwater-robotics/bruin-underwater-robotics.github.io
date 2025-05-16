@@ -1,0 +1,11 @@
+include:
+  - _pages
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: /:basename/

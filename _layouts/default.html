@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div id={{ page.name | remove: ".md" }}">
+      <section id="bur-banner">
+        <div class="bur-banner">
+          <div class="bur-banner-image"></div> 
+        </div>
+        <div class="bur-title-text">
+          {{page.page_title}}
+          {% if page.page_subtitle %}
+            <div style="margin-top: 15px;" class="bur-subtitle-text">{{page.page_subtitle}}</div>
+          {% endif %}
+        </div>
+      </section>
+      <section class="bur-body">
+        {{ content }}
+      </section>
+    </div>
+    <div style="height:40px"></div>
+    {% include footer.html %}
+  </body>
+</html>

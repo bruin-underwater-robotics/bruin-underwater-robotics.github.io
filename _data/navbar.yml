@@ -1,0 +1,27 @@
+- title: "Home"
+  url: "/"
+
+- title: "About Us"
+  url: "/about-us"
+
+- title: "Meet the Team"
+  url: "/members/2024-2025"
+
+- title: "History"
+  url: "/history"
+  subpages:
+    - title: "2023-2024"
+      url: "/history/2023-2024"
+    - title: "2022-2023"
+      url: "/history/2022-2023"
+    - title: "2021-2022"
+      url: "/history/2021-2022"
+    - title: "2020-2021"
+      url: "/history/2020-2021"
+
+
+- title: "Sponsors"
+  url: "/sponsors"
+
+- title: "Join the Team"
+  url: "/join-us"

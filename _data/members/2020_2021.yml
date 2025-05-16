@@ -1,0 +1,52 @@
+- id: leads
+  type: leads
+  leads:
+    - name: Ethan Brandt
+      role: Project Lead
+    - name: Ethan Cai
+      role: Project Lead
+
+- id: Chassis & Propulsion
+  name: Chassis & Propulsion
+  type: subteam
+  leads:
+    - name: Paul Ramirez
+    - name: Reilly Terao
+  members: Daren He, Elle McCue, Hannah Lin
+
+- id: Manipulator
+  name: Mainpulator
+  type: subteam
+  leads:
+    - name: Dylan Chao
+    - name: Melissa Doan
+  members: Maya Wiley, Andrew Miller, Paython Bechefsky, Linda Zaragoza, Jason Inaba, Alyssa Gee
+
+- id: Mission Control
+  name: Mission Control
+  type: subteam
+  leads:
+    - name: Heidi Kwong
+    - name: Abinav Kannan
+  members: Phillip Nguyen, Puneet Nayyar
+
+- id: OES
+  name: Onboard Electromechanical Systems (OES)
+  type: subteam
+  leads:
+    - name: Gabriel Alpuerto
+    - name: Ben Lanir
+  members: Scott Cao, Olivia Loh, Erin Hall, Alexander Pak, Roger Truong
+
+- id: AUV
+  name: AUV
+  type: subteam
+  leads:
+    - name: Ethan Brandt
+    - name: Ethan Cai
+  members: Alex Xu, Heebeom Park, Karina Ting, Yong Joon Yoo, Vivan To, Zehao Rong, John McCullough
+
+- id: Tripati
+  name: Tripati
+  type: subteam
+  members: Ethan Brandt, Ethan Cai, Zehao Rong, John McCullough, Melissa Doan, Maya Wiley, Linda Zaragoza, Jason Inaba, Alyssa Gee, Gabriel Alpuerto, Roger Truong, Paul Ramirez

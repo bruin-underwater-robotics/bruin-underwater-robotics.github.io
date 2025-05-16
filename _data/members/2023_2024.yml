@@ -1,0 +1,50 @@
+- id: leads
+  type: leads
+  leads:
+    - name: Scott Cao
+      role: Team President
+      photo: assets/images/members/2023_2024/scott_cao.jpg
+
+    - name: Alex Xu
+      role: Chief Executive Officer
+      photo: assets/images/members/2023_2024/alex_xu.png
+
+- id: Chassis
+  name: Mechanical - Chassis
+  type: subteam
+  leads:
+    - name: Ethan Lien
+      photo: assets/images/members/2023_2024/ethan_lien.png
+    - name: Alan Nguyen
+      photo: assets/images/members/2023_2024/alan_nguyen.png
+  members: Ethan Lien, Alan Nguyen, Allan Ta, Daniel Merino, Jason Chen, Jonah Pawlak, Parker Nowakowski, Ryan Woo, Sonni Montanez, Richard Zhou, Archer Phillips
+
+- id: Dive-Ops
+  name: Mechanical - Dive-Ops
+  type: subteam
+  leads:
+    - name: Scott Bloom
+      # photo: assets/images/members/2023_2024/scott_bloom.jpg
+    - name: Allison Liu
+      # photo: assets/images/members/2023_2024/allison_liu.jpg
+  members: Scott Bloom, Allison Liu, Alex Lie, Susie Prieto, Emilie Liao, Dane Kaestner, Ashutosh Kandala
+
+- id: Hardware
+  name: Electronics - Hardware
+  type: subteam
+  leads:
+    - name: Sophia Du
+      photo: assets/images/members/2023_2024/sophia_du.png
+    - name: Daniel Wang
+      photo: assets/images/members/2023_2024/daniel_wang.png
+  members: Sophia Du, Daniel Wang, Lucas Choe, Petunia Rizo, Amber Wang
+
+- id: Software
+  name: Electronics - Software
+  type: subteam
+  leads:
+    - name: Stanley Wei
+      photo: assets/images/members/2023_2024/stanley_wei.jpg
+    - name: Edward Sun
+      # photo: assets/images/members/2023_2024/edward_sun.png
+  members: Stanley Wei, Edward Sun, Nakul Joshi, Lindsay Qin, Aiden Wong, Kelsey Shan, Jeffery Jiang, Zach DeSoto, Liam Meagher 

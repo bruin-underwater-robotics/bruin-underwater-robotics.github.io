@@ -1,0 +1,262 @@
+---
+---
+
+@import "bootstrap";
+@import "variables";
+
+$navbar-height: 77px;
+body {
+  padding-top: $navbar-height + 14px;
+}
+
+h1 {
+  color: $cerulean;
+  font-size: 22pt;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+h2 {
+  color: $cerulean;
+  font-size: 18pt;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.56;
+  margin-bottom: 20px;
+}
+h3 {
+  color: $cerulean;
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+/* Header */
+$banner-height: 480px;
+#bur-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  height: $banner-height;
+  background-color: rgba(33,33,33,1);
+}
+.bur-banner {
+  height: $banner-height;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(33,33,33,1);
+}
+.bur-banner-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+  background-image: url("{{ site.baseurl }}/assets/images/home_header.jpg");
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+}
+.bur-title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Lato, Arial;
+  font-size: 36pt;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.56;
+}
+.bur-subtitle-text {
+  font-size: 21pt;
+  font-style: italic;
+}
+
+.bur-body {
+  margin-top: $banner-height;
+}
+
+.bur-text {
+  font-family: Lato, Arial;
+  color: $black;
+  line-height: 1.56;
+}
+.bur-text-large {
+  font-family: Lato, Arial;
+  color: $black;
+  font-size: 16pt;
+  font-weight: 400;
+  line-height: 1.56;
+}
+.bur-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.bur-qr-code {
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.bur-home-video {
+  width: 100%;
+  min-height: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.bur-button {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  color: $white;
+  border: 0.1px solid $black;
+  background-color: $cerulean;
+  border-radius: 0.3rem;
+  padding: 5px 60px;
+}
+
+.bur-caption {
+  font-style:italic;
+  text-align:center;
+  margin-top: 10px;
+}
+
+.bur-sponsor-photo {
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.not-found-photo {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.bur-text-container {
+  @extend .container-fluid;
+  max-width: 1080px;
+}
+
+.bur-wide-container {
+  @extend .container-lg;
+  margin-bottom: 10px;
+}
+
+
+/* Navbar */
+#burNavbar {
+  background-color: $transparent;
+  transition: 0.3s;
+  padding: 0px;
+}
+#burNavbar .bur-navbar-logo {
+  margin: 0px 0px 0px 40px;
+}
+#burNavbar a {
+  color: $white;
+  font-size: 12pt;
+  font-weight: 700;
+  font-family: Lato, sans-serif;
+}
+#burNavbar a:hover {
+  color: $light-green;
+}
+#burNavbar img {
+  height: 50px;
+  padding:  8px 4px;
+  transition: 0.4s;
+}
+#burNavbar img:hover {
+  filter: brightness(120%);
+}
+#burNavbar.bur-shrunk img {
+  height: 45px;
+}
+#burNavbar .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+#burNavbar .dropdown-item {
+  color: $gray;
+  background-color: $transparent !important;
+  text-align: center;
+}
+#burNavbar .dropdown-item:hover {
+  color: $black;
+}
+
+
+
+/* Footer */
+.bur-footer {
+  background-color: $light-green !important;
+  min-height: 100px;
+}
+.bur-footer-icon {
+  height: 44px;
+  width: 44px;
+  background-color: black;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.bur-footer-icon:hover {
+  background-color: $cerulean;
+}
+
+
+/* Members */
+.bur-members {
+  font-family: Lato, sans-serif;
+}
+.bur-subteam-row {
+  padding: 10px 48px 10px 48px;
+  margin: 0px;
+  max-width: 1400px;
+}
+.bur-lead-description {
+  padding: 14px 8px;
+}
+.bur-profile {
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+}
+.bur-lead-name {
+  font-size: 18pt;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.56;
+}
+.bur-lead-image {
+  max-width: 340px;
+  height: 360px;
+  object-fit: cover;
+}
+.bur-profile-image {
+  max-width: 290px;
+  height: 310px;
+  object-fit: cover;
+}
+.bur-profile-role {
+  font-variant: normal;
+  font-weight: 700;
+  margin: 8px 0px;
+}
+.bur-subteam-members {
+  font-size: 12pt;
+  line-height: 1.56;
+}
+

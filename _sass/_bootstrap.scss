@@ -1,0 +1,29 @@
+// Customize Bootstrap (see https://getbootstrap.com/docs/5.1/customize/sass/)
+// Use Bootswatch theme (see https://github.com/thomaspark/bootswatch)
+
+// Include Bootstrap & Bootswatch theme variables
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap";
+
+$navbar-padding-y: 1px;
+$enable-negative-margins: true;
+
+// Custom color definitions
+$header-footer-bg: $black;
+
+// Custom theme colors
+$theme-colors:map-merge($theme-colors, (
+  "header-footer-bg": $header-footer-bg,
+));
+
+// Propagate custom theme colors to relevant variables (see https://stackoverflow.com/a/68762902)
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+$utilities-colors: map-merge($utilities-colors, $theme-colors-rgb);
+$utilities-text-colors: map-loop($utilities-colors, rgba-css-var, "$key", "text");
+$utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
+
+// Include Bootstrap & Bootswatch
+@import "bootstrap/bootstrap";

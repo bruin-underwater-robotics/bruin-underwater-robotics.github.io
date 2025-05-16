@@ -1,0 +1,85 @@
+- id: leads
+  type: leads
+  leads:
+    - name: Ben Lanir
+      role: Project Lead
+    - name: Heidi Kwong
+      role: Project Lead
+
+- id: Chassis & Propulsion
+  name: Chassis & Propulsion
+  type: subteam
+  leads:
+    - name: Daren He
+      photo: assets/images/members/2021_2022/daren_he.jpg
+    - name: Reilly Terao
+      photo: assets/images/members/2021_2022/reilly_terao.jpg
+  members: 
+    members: Hannah Lin, Heebeom Park, Lorenzo Ontiveros, Nicholas Zhao, William Park
+
+- id: Manipulator
+  name: Manipulator
+  type: subteam
+  leads:
+    - name: Jason Inaba
+      photo: assets/images/members/2021_2022/jason_inaba.jpg
+    - name: Alyssa Gee
+      photo: assets/images/members/2021_2022/alyssa_gee.jpg
+  members: 
+    members: Aaron Kuo, Andrew Yang, Atticus Cummings, Benny Hsu, Jonathan Park, Priya Shah, Rosa Son, Shannon Li, Melissa Doan
+
+- id: Mission Control
+  name: Mission Control
+  type: subteam
+  leads:
+    - name: Abinav Kannan
+      photo: assets/images/members/2021_2022/abinav_kannan.png
+  members: 
+    members: Benji Cruz, James King, Phillip Nguyen, Rita Gimelshein, Vani Sharma
+
+- id: OES
+  name: Onboard Electromechanical Systems (OES)
+  type: subteam
+  leads:
+    - name: Roger Truong
+      photo: assets/images/members/2021_2022/roger_truong.jpg
+    - name: Scott Cao
+      photo: assets/images/members/2021_2022/scott_cao.jpeg
+  members: 
+    members: Claire Chen, Ethan Lien, Ingrid Lee, Sandra Li, Stephen Masson
+
+- id: AUV
+  name: AUV
+  type: subteam
+  leads:
+    - name: John McCullough
+      photo: assets/images/members/2021_2022/john_mccullough.jpg
+    - name: Zehao Rong
+      photo: assets/images/members/2021_2022/zehao_rong.png
+  members: 
+    - name: Chassis & Propulsion
+      members: Karina Ting
+    - name: Manipulator
+      members: Sarah Bialo, Vinay Nagapppala
+    - name: Mission Control
+      members: Alex Xu, Jack Murray, Jacob Sayono, Jeremy Lin, Ryan Kim
+    - name: OES
+      members: Vivian To, Egor Glukhov
+
+- id: Tripati
+  name: Tripati
+  type: subteam
+  leads:
+    - name: Paul Ramirez
+      photo: assets/images/members/2021_2022/paul_ramirez.jpg
+    - name: Maya Wiley
+      photo: assets/images/members/2021_2022/maya_wiley.jpg
+  members:
+    - name: Chassis & Propulsion
+      members: Sruti Munagala
+    - name: Manipulator
+      members: Alyssa Gee, Jason Kong, Vivika Martini
+    - name: Mission Control
+      members: Ethan Wilcox, Shreesh Karjagi
+    - name: OES
+      members: George Colaco, Jack Burd, Joey Passarello
