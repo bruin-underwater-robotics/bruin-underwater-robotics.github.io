@@ -2,6 +2,9 @@ include:
   - _pages
 
 permalink: pretty
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
 
 defaults:
   - scope:
