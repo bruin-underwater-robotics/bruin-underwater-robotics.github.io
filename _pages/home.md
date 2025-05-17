@@ -8,11 +8,11 @@ page_title: "Bruin Underwater Robotics"
 page_subtitle: "Exploring the Unexplored"
 ---
 
-<div class="bur-text-container" style="margin-bottom:30px;">
-    <img class="bur-photo not-found-photo" src="{{site.base_url}}/assets/images/404.jpg">
+<div class="bur-wide-container" style="margin-bottom:30px;">
+    <img class="bur-photo not-found-photo" src="{{site.base_url}}/assets/images/404_fishtank.jpg">
     <div class="bur-caption">This site is still under construction -- please check back later!</div>
 </div>
-
+    
 <div class="bur-wide-container">
     <div class="row bur-subteam-row gx-5">
         <div class="col">
