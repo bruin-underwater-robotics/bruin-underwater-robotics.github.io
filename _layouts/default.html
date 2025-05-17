@@ -7,12 +7,12 @@
       <section id="bur-banner">
         <div class="bur-banner">
           <div class="bur-banner-image"></div> 
-        </div>
-        <div class="bur-title-text">
-          {{page.page_title}}
-          {% if page.page_subtitle %}
-            <div style="margin-top: 15px;" class="bur-subtitle-text">{{page.page_subtitle}}</div>
-          {% endif %}
+          <div class="bur-title-text">
+            {{page.page_title}}
+            {% if page.page_subtitle %}
+              <div style="margin-top: 15px;" class="bur-subtitle-text">{{page.page_subtitle}}</div>
+            {% endif %}
+          </div>
         </div>
       </section>
       <section class="bur-body">
@@ -22,4 +22,6 @@
     <div style="height:40px"></div>
     {% include footer.html %}
   </body>
+
+  <script src="{{ "/assets/js/navbar.js" }}"></script>
 </html>

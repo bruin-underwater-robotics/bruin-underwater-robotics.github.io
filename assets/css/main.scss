@@ -35,17 +35,18 @@ h3 {
 
 /* Header */
 $banner-height: 480px;
-#bur-banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; 
-  height: $banner-height;
-  background-color: rgba(33,33,33,1);
+$banner-height-mobile: 600px;
+@media (min-width: 600px) {
+  .bur-banner {
+    height: $banner-height;
+  }
+}
+@media (max-width: 600px) {
+  .bur-banner {
+    height: $banner-height-mobile;
+  }
 }
 .bur-banner {
-  height: $banner-height;
   position: absolute;
   display: block;
   top: 0;
@@ -81,8 +82,15 @@ $banner-height: 480px;
   font-style: italic;
 }
 
-.bur-body {
-  margin-top: $banner-height;
+@media (min-width: 600px) {
+  .bur-body {
+    margin-top: $banner-height - $navbar-height + 10;
+  }
+}
+@media (max-width: 600px) {
+  .bur-body {
+    margin-top: $banner-height-mobile - $navbar-height + 10;
+  }
 }
 
 .bur-text {
@@ -133,6 +141,21 @@ $banner-height: 480px;
   margin-top: 10px;
 }
 
+
+.home-photo {
+  min-width: 400px;
+}
+
+@media (max-width: 800px) {
+  .small-margin-top {
+    margin-top: 40px;
+  }  
+  .home-photo {
+    min-width: 300px;
+    max-width: 400px;
+  }
+}
+
 .bur-sponsor-photo {
   object-fit: cover;
   margin: auto;
@@ -159,22 +182,66 @@ $banner-height: 480px;
 
 
 /* Navbar */
+@media (max-width: 600px) {
+  #burNavbar {
+    background-color: $light-gray;
+  }
+  #burNavbar .bur-navbar-logo {
+    margin: 0px 0px 0px 40px;
+  }
+  #burNavbar .bur-navbar-logo {
+    margin: 0px 0px 0px 20px;
+  }
+  #burNavbar a {
+    color: $gray;
+  }
+  #burNavbar a:hover {
+    color: $black;
+  }
+  #burNavbar .dropdown-toggle {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  #burNavbar .dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 40px;
+  }
+  #burNavbar .navbar-toggler{
+    margin-right: 20px;
+  }
+}
+@media (min-width: 600px) {
+  #burNavbar {
+    background-color: $transparent; 
+  }
+  #burNavbar .bur-navbar-logo {
+    margin: 0px 0px 0px 40px;
+  }
+  #burNavbar a {
+    color: $white;
+  }
+  #burNavbar a:hover {
+    color: $light-green;
+  }
+  #burNavbar .dropdown-toggle {
+    margin-left: -2px;
+    margin-right: 8px;
+    padding-left: 0px;
+  }
+  #burNavbar .dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 40px;
+  }
+}
 #burNavbar {
   background-color: $transparent;
   transition: 0.3s;
   padding: 0px;
 }
-#burNavbar .bur-navbar-logo {
-  margin: 0px 0px 0px 40px;
-}
 #burNavbar a {
-  color: $white;
   font-size: 12pt;
   font-weight: 700;
   font-family: Lato, sans-serif;
-}
-#burNavbar a:hover {
-  color: $light-green;
 }
 #burNavbar img {
   height: 50px;
@@ -187,8 +254,19 @@ $banner-height: 480px;
 #burNavbar.bur-shrunk img {
   height: 45px;
 }
-#burNavbar .dropdown:hover>.dropdown-menu {
-  display: block;
+#burNavbar .navbar-toggler {
+  border: 1.5px solid $dark-gray;
+  -webkit-transition:  border-radius 0.4s;
+ -moz-transition:  border-radius 0.4s;
+ -o-transition:  border-radius 0.4s;
+ -ms-transition: border-radius 0.4s;
+ transition: border-radius 0.4s ease; 
+}
+#burNavbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#burNavbar .dropdown-toggle {
+  margin-top: 9px;
 }
 #burNavbar .dropdown-item {
   color: $gray;
@@ -240,15 +318,30 @@ $banner-height: 480px;
   font-weight: 700;
   line-height: 1.56;
 }
-.bur-lead-image {
-  max-width: 340px;
-  height: 360px;
-  object-fit: cover;
+
+@media (min-width:800px) {
+  .bur-lead-image {
+    max-width: 340px;
+    height: 360px;
+    object-fit: cover;
+  }
+  .bur-profile-image {
+    max-width: 290px;
+    height: 310px;
+    object-fit: cover;
+  }  
 }
-.bur-profile-image {
-  max-width: 290px;
-  height: 310px;
-  object-fit: cover;
+@media (max-width:800px) {
+  .bur-lead-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .bur-profile-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }  
 }
 .bur-profile-role {
   font-variant: normal;

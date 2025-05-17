@@ -1,20 +1,24 @@
-<nav id="burNavbar" class="navbar navbar-expand-md navbar-light fixed-top"> 
+<nav id="burNavbar" class="navbar navbar-expand-md fixed-top"> 
   <a class="navbar-brand" href="/">
     <img class="bur-navbar-logo" src="/assets/images/logos/logo_text_blue.png">
   </a>
 
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button id="burNavbarToggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span id="burNavbarTogglerIcon" class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" style="margin:0px 30px;">
     <div class="navbar-nav">
       {% for item in site.data.navbar %}
         {% if item.subpages %}
-            <div class="dropdown">
-              <a class="btn dropdown-toggle nav-link {% if item.url == page.url %}active{% endif %}" {% if item.url == page.url %}aria-current="page"{% endif %} href="{{item.url}}">
+            <a class="nav-link {% if item.url == page.url %}active{% endif %}" {% if item.url == page.url %}aria-current="page"{% endif %} href="{{item.url}}">
+              {{item.title}}
+            </a>
+            <!-- <div class="dropdown btn-group">
+              <a class="nav-link {% if item.url == page.url %}active{% endif %}" {% if item.url == page.url %}aria-current="page"{% endif %} href="{{item.url}}">
                 {{item.title}}
               </a>
+              <a class="dropdown-toggle"></a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 {% for subpage in item.subpages %}
                   <a class="dropdown-item nav-link {% if subpage.url == page.url %}active{% endif %}" {% if subpage.url == page.url %}aria-current="page"{% endif %} href="{{subpage.url}}">
@@ -22,8 +26,7 @@
                   </a>
                 {% endfor %}
               </div>
-            </div>
-
+            </div> -->
         {% else %}
             <a class="nav-link {% if item.url == page.url %}active{% endif %}" {% if item.url == page.url %}aria-current="page"{% endif %} href="{{item.url}}">
               {{item.title}}
