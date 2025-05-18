@@ -1,10 +1,10 @@
 ---
 title: "Our History"
-layout: default
+layout: small_banner
 permalink: /history
-banner: /assets/images/home_header.jpg
-page_title: "History"
-page_subtitle: ""
+banner: /assets/images/history/2020_2021/tripati.jpg
+banner_style: "background-position: 50% 50%;"
+page_title: "Our History"
 ---
 
 <div class="bur-wide-container" style="margin-bottom:40px;">
@@ -17,7 +17,7 @@ page_subtitle: ""
             <a href="{{site.base_url}}/history/2020-2021">2020-2021 Season</a>
         </div>
         <div class="col" style="display:block;margin:auto;">
-            <img class="bur-photo home-photo small-margin-top" src="{{site.base_url}}/assets/images/members/2023_2024/robosub_2024.jpg">
+            <img class="bur-photo home-photo small-margin-top" src="{{site.base_url}}/assets/images/history/2023_2024/robosub_2024.jpg">
             <div class="bur-caption">Robosub 2024!</div>
         </div>
     </div>
@@ -34,7 +34,7 @@ page_subtitle: ""
         <a href="{{site.base_url}}/members/2020-2021">2020-2021</a>
     </div>
     <div class="col" style="display:block;margin:auto;">
-        <img class="bur-photo home-photo small-margin-top" src="{{site.base_url}}/assets/images/icecream_social_2122.jpg">
+        <img class="bur-photo home-photo small-margin-top" src="{{site.base_url}}/assets/images/history/2021_2022/icecream_social_2122.jpg">
         <div class="bur-caption">BUR Ice Cream Social (Oct. 2021)</div>
     </div>
 </div>

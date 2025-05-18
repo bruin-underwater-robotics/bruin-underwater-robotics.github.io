@@ -2,7 +2,7 @@ include:
   - _pages
 
 permalink: pretty
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
 
