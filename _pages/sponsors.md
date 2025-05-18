@@ -1,8 +1,9 @@
 ---
 title: "Our Sponsors"
-layout: default
+layout: small_banner
 permalink: /sponsors
-banner: /assets/images/home_header.jpg
+banner: /assets/images/history/2022_2023/smc_bot.jpg
+banner_style: "background-position: 50% 40%;"
 page_title: "Our Sponsors"
 ---
 

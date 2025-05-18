@@ -1,8 +1,9 @@
 ---
 title: "Join the Team"
 layout: default
+banner: /assets/images/history/2021_2022/bur_comp_2022.jpg
+banner_style: "background-position: 50% 35%;opacity:0.6"
 permalink: /join-us
-banner: /assets/images/home_header.jpg
 page_title: "Join the Team"
 page_subtitle: ""
 ---
@@ -37,7 +38,7 @@ page_subtitle: ""
 <div class="bur-wide-container" style="margin-bottom:20px;">
     <div class="row bur-subteam-row" markdown="0">
         <div class="col">
-            <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/team_photo2_2022_2023.jpg">
+            <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2022_2023/team_photo2_2022_2023.jpg">
         </div>
         <div class="col small-margin-top">
             We accept members year-round, all majors and experience levels are welcome. There is no application -- we never turn anyone away, so if you're even a little bit interested, please reach out!

@@ -5,12 +5,12 @@
     {% include navbar.html %}
     <div id={{ page.name | remove: ".md" }}">
       <section id="bur-banner">
-        <div class="bur-banner">
+        <div class="bur-banner bur-banner-small">
           {% if page.banner %}
               <div class="bur-banner-image" style='background-image:url({{site.base_url}}{{page.banner}});{% if page.banner_style%}{{page.banner_style}}{% endif %}'></div> 
           {% else %}
               <div class="bur-banner-image" style='background-image:url(https://static.wixstatic.com/media/231bbe_a1ec17c784254309ad919840f9c1d4d7~mv2.png/v1/fill/w_1754,h_856,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/BUR%20BG_edited.png);opacity:1;'></div> 
-          {% endif %}          
+          {% endif %}
           <div class="bur-title-text">
             {{page.page_title}}
             {% if page.page_subtitle %}
@@ -19,7 +19,7 @@
           </div>
         </div>
       </section>
-      <section class="bur-body">
+      <section class="bur-body bur-body-small">
         {{ content }}
       </section>
     </div>
