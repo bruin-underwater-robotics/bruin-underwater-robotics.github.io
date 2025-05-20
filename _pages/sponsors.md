@@ -19,7 +19,7 @@ page_title: "Our Sponsors"
 <div class="bur-wide-container">
     <div class="row gy-5">
         {% for sponsor in site.data.sponsors %}
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <img class="bur-sponsor-photo" src="{{site.base_url}}/{{sponsor.photo}}">
             </div>
         {% endfor %}

@@ -55,7 +55,7 @@ page_subtitle: "Exploring the Unexplored"
             <div class="bur-text">
                 Learn more about our team, including the leads, sub-leads, and team members for each of the four subdivisions in BUR.
             </div>
-            <a href="{{site.base_url}}/members/2024-2025">
+            <a class="bur-button-text" href="{{site.base_url}}/members/2024-2025">
                 <button class="bur-button">Meet the Team</button>
             </a>
         </div>
@@ -75,7 +75,7 @@ page_subtitle: "Exploring the Unexplored"
             <div class="bur-text">
                 Interested to learn about our progress in designing, building, and testing our underwater robot? Click here to learn more about our most recent underwater vehicle.
             </div>
-            <a href="{{site.base_url}}/history/2023-2024">
+            <a class="bur-button-text" href="{{site.base_url}}/history/2023-2024">
                 <button class="bur-button">Our History</button>
             </a>
         </div>

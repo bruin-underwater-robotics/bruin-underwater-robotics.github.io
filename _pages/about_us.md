@@ -30,7 +30,7 @@ page_title: "About Us"
                 <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2023_2024/alan_ethan.jpg">
             </div>
             <div class="col small-margin-top">
-                <h1>we believe the best education resides in the lab</h1>
+                <h1>the best education happens in the lab</h1>
                 <div class="bur-text-large">
                     The BUR project offers something most students won't get from school: the opportunity to take a complex project from start to finish. Comprised of students from majors all across UCLA, the multi-disciplinary team starts from scratch to go from design and prototyping to manufacturing and testing a brand new ROV that all members can be proud of. The focus on a rapid design, build, test, and iterate process allows all students the opportunity to learn, and no one leaves the project without learning something substantial. 
                 </div>

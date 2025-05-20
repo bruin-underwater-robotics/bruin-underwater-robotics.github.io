@@ -4,7 +4,8 @@
 @import "bootstrap";
 @import "variables";
 
-$navbar-height: 77px;
+@import "navbar";
+
 body {
   padding-top: $navbar-height + 14px;
 }
@@ -80,7 +81,7 @@ $banner-height-small-mobile: 300px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: Lato, Arial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 36pt;
   font-weight: 700;
   text-align: center;
@@ -102,16 +103,16 @@ $banner-height-small-mobile: 300px;
   }
 }
 .bur-body-small {
-  margin-top: $banner-height-small - $navbar-height + 10;
+  margin-top: $banner-height-small - $navbar-height + 30;
 }
 
 .bur-text {
-  font-family: Lato, Arial;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: $black;
   line-height: 1.56;
 }
 .bur-text-large {
-  font-family: Lato, Arial;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: $black;
   font-size: 16pt;
   font-weight: 400;
@@ -136,6 +137,13 @@ $banner-height-small-mobile: 300px;
   margin: auto;
   margin-top: 20px;
 }
+.bur-button-text {
+  text-decoration: none;
+}
+.bur-button-text:hover {
+  text-decoration: underline;
+  text-decoration-color: $white;
+}
 .bur-button {
   margin: auto;
   margin-top: 20px;
@@ -144,10 +152,16 @@ $banner-height-small-mobile: 300px;
   border: 0.1px solid $black;
   background-color: $cerulean;
   border-radius: 0.3rem;
-  padding: 5px 60px;
+  padding: 10px 60px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.bur-button:hover {
+  filter: brightness(120%);
 }
 
 .bur-caption {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style:italic;
   text-align:center;
   margin-top: 10px;
@@ -172,8 +186,8 @@ $banner-height-small-mobile: 300px;
   object-fit: cover;
   margin: auto;
   display: block;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .not-found-photo {
@@ -191,105 +205,6 @@ $banner-height-small-mobile: 300px;
   @extend .container-lg;
   margin-bottom: 10px;
 }
-
-
-/* Navbar */
-@media (max-width: 600px) {
-  #burNavbar {
-    background-color: $light-gray;
-  }
-  #burNavbar .bur-navbar-logo {
-    margin: 0px 0px 0px 40px;
-  }
-  #burNavbar .bur-navbar-logo {
-    margin: 0px 0px 0px 20px;
-  }
-  #burNavbar a {
-    color: $gray;
-  }
-  #burNavbar a:hover {
-    color: $black;
-  }
-  #burNavbar .dropdown-toggle {
-    margin-left: 0px;
-    padding-left: 0px;
-  }
-  #burNavbar .dropdown:hover>.dropdown-menu {
-    display: block;
-    margin-top: 40px;
-  }
-  #burNavbar .navbar-toggler{
-    margin-right: 20px;
-  }
-}
-@media (min-width: 600px) {
-  #burNavbar {
-    background-color: $transparent; 
-  }
-  #burNavbar .bur-navbar-logo {
-    margin: 0px 0px 0px 40px;
-  }
-  #burNavbar a {
-    color: $white;
-  }
-  #burNavbar a:hover {
-    color: $light-green;
-  }
-  #burNavbar .dropdown-toggle {
-    margin-left: -2px;
-    margin-right: 8px;
-    padding-left: 0px;
-  }
-  #burNavbar .dropdown:hover>.dropdown-menu {
-    display: block;
-    margin-top: 40px;
-  }
-}
-#burNavbar {
-  background-color: $transparent;
-  transition: 0.3s;
-  padding: 0px;
-}
-#burNavbar a {
-  font-size: 12pt;
-  font-weight: 700;
-  font-family: Lato, sans-serif;
-}
-#burNavbar img {
-  height: 50px;
-  padding:  8px 4px;
-  transition: 0.4s;
-}
-#burNavbar img:hover {
-  filter: brightness(120%);
-}
-#burNavbar.bur-shrunk img {
-  height: 45px;
-}
-#burNavbar .navbar-toggler {
-  border: 1.5px solid $dark-gray;
-  -webkit-transition:  border-radius 0.4s;
- -moz-transition:  border-radius 0.4s;
- -o-transition:  border-radius 0.4s;
- -ms-transition: border-radius 0.4s;
- transition: border-radius 0.4s ease; 
-}
-#burNavbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-#burNavbar .dropdown-toggle {
-  margin-top: 9px;
-}
-#burNavbar .dropdown-item {
-  color: $gray;
-  background-color: $transparent !important;
-  text-align: center;
-}
-#burNavbar .dropdown-item:hover {
-  color: $black;
-}
-
-
 
 /* Footer */
 .bur-footer {
@@ -310,7 +225,7 @@ $banner-height-small-mobile: 300px;
 
 /* Members */
 .bur-members {
-  font-family: Lato, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .bur-subteam-row {
   padding: 10px 28px 10px 28px;
