@@ -13,6 +13,7 @@ $navbar-height: 77px;
   }
   #burNavbar a {
     color: $gray;
+    font-size: 12pt;
   }
   #burNavbar a:hover {
     color: $black;
@@ -39,6 +40,7 @@ $navbar-height: 77px;
   #burNavbar a {
     color: $white;
     transition: 0.2s;
+    font-size: 13.5pt;
   }
   #burNavbar a:hover {
     color: $light-blue;
@@ -60,7 +62,6 @@ $navbar-height: 77px;
   padding: 0px;
 }
 #burNavbar a {
-  font-size: 12pt;
   font-weight: 700;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }

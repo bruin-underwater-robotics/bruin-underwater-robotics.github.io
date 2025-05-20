@@ -36,14 +36,18 @@ page_subtitle: "Exploring the Unexplored"
             <div class="bur-text">
                 The 2023-2024 season marked our debut into the Robosub competition. With our AUV, Ambition, we matched the performance of teams who have competed for over a decade.
             </div>
-            <iframe jsname="L5Fo6c" class="YMEQtf bur-home-video" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals allow-storage-access-by-user-activation" frameborder="0" aria-label="YouTube Video, RoboSub 2024 | Bruin Underwater Robotics Team Intro Video" src="https://www.youtube.com/embed/kqbSC0Pxigs?embed_config=%7B%22enc%22:%22AXH1eznNfRu2TFnotOF5c4TFPGn84BZDkh2m5_0lVV6qe91vOh1-_odadyqhOatzql-fRurJduZR3jguK03pObX0ipH_oG-n7cHUS6PSa-jsU4s6LsKlPl9cYlBULhM7tnFCn9RD4-_bNb_gfsMdfV2Ivv72vSSQlxJDdf-Vsp8DUrNB%22%7D&amp;errorlinks=1&amp;rct=CpcBAXH1ezm5sqdeRBTjHpI1sZSq6hIQOG-Vwgkx1d-qYix8A7eAf2VoN29ChuYURgnWKFnJgH9c3o57Vo0N5PowtqgVZGlEGpPTfpWSw2WO0362W2-AmfPv9uoEE59dZfu63Pzo8MS-dlJkx_fYLPRVmgVscRfIvSSUn_rOecf71uqJYXGcl9zCs4FWtBXHU6Jg_-4EYKnobg%3D%3D" allowfullscreen=""></iframe>
+            <div style="padding: 20px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kqbSC0Pxigs?si=ZtVxoc96x7UfsQym" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
         <div class="col-md-6 small-margin-top">
             <h2>2022-2023 Robot</h2>
             <div class="bur-text">
                 In 2022-2023, Bruin Underwater Robotics competed in the MATE ROV competition. In only our second year, we qualified for Worlds! 
             </div>
-            <iframe jsname="L5Fo6c" class="YMEQtf bur-home-video" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals allow-storage-access-by-user-activation" frameborder="0" aria-label="YouTube Video, UCLA Bruin Underwater Robotics MATE ROV Qualification Video, Explorer Class 2023" src="https://www.youtube.com/embed/YQrVBxHxkXk?embed_config=%7B%22enc%22:%22AXH1eznSgRNBnkrYzS0V98NjbnJJYw1P_sQGvG8cXwd5_P7gPn9yxT6gS2nENEy9PoEJuENcJ92C-RQk9glr46K7ySpVwpIjrlsWT8K-cOZKe9tqZ9PLc_ATfEJTZbeVJn-_55UQyvSDmH_0jhqTOvk8tA6N_YQKxdbBk0k4g_aoLC0n%22%7D&amp;errorlinks=1&amp;rct=CpcBAXH1ezmqjuQSGxk6iTrXmcrXCErjq4srWNuM0k0qsAkkLhWDOImt1FWJHIFFC3_RSdpitJS7f7uJ-i-AK4Ld8H4EhfW3XorkjXYk-TH7RomqZQm1MqSl1zS7FlSiGIjlmTwDMuYXxVj0T2muCo6JpOkh2-jN6U-ZdgyagZ_Ru_KzUkF6mnLnx29fx5rhjuY6ymxQ5aa35Q%3D%3D" allowfullscreen=""></iframe>
+            <div style="padding: 20px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YQrVBxHxkXk?si=FXuEValt9eUSyfJq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </div>
