@@ -1,0 +1,99 @@
+$navbar-height: 77px;
+
+/* Navbar */
+@media (max-width: 600px) {
+  #burNavbar {
+    background-color: $light-gray;
+  }
+  #burNavbar .bur-navbar-logo {
+    margin: 0px 0px 0px 40px;
+  }
+  #burNavbar .bur-navbar-logo {
+    margin: 0px 0px 0px 20px;
+  }
+  #burNavbar a {
+    color: $gray;
+  }
+  #burNavbar a:hover {
+    color: $black;
+  }
+  #burNavbar .dropdown-toggle {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  #burNavbar .dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 40px;
+  }
+  #burNavbar .navbar-toggler{
+    margin-right: 20px;
+  }
+}
+@media (min-width: 600px) {
+  #burNavbar {
+    background-color: $transparent; 
+  }
+  #burNavbar .bur-navbar-logo {
+    margin: 0px 0px 0px 40px;
+  }
+  #burNavbar a {
+    color: $white;
+    transition: 0.2s;
+  }
+  #burNavbar a:hover {
+    color: $light-blue;
+    text-decoration: underline;
+  }
+  #burNavbar .dropdown-toggle {
+    margin-left: -2px;
+    margin-right: 8px;
+    padding-left: 0px;
+  }
+  #burNavbar .dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 40px;
+  }
+}
+#burNavbar {
+  background-color: $transparent;
+  transition: 0.3s;
+  padding: 0px;
+}
+#burNavbar a {
+  font-size: 12pt;
+  font-weight: 700;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#burNavbar img {
+  height: 50px;
+  padding:  8px 4px;
+  transition: 0.4s;
+}
+#burNavbar img:hover {
+  filter: brightness(140%);
+}
+#burNavbar.bur-shrunk img {
+  height: 45px;
+}
+#burNavbar .navbar-toggler {
+  border: 1.5px solid $dark-gray;
+  -webkit-transition:  border-radius 0.4s;
+ -moz-transition:  border-radius 0.4s;
+ -o-transition:  border-radius 0.4s;
+ -ms-transition: border-radius 0.4s;
+ transition: border-radius 0.4s ease; 
+}
+#burNavbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#burNavbar .dropdown-toggle {
+  margin-top: 9px;
+}
+#burNavbar .dropdown-item {
+  color: $gray;
+  background-color: $transparent !important;
+  text-align: center;
+}
+#burNavbar .dropdown-item:hover {
+  color: $black;
+}
