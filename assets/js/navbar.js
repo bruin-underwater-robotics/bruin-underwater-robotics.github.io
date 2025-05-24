@@ -41,7 +41,7 @@ function darkenNavbar() {
       continue;
     }
     navbar_links[i].style.color = "rgba(255,255,255,1)";
-    navbar_links[i].onmouseover = function() { this.style.color = "rgb(117, 216, 255)"; }
+    navbar_links[i].onmouseover = function() { this.style.color = "rgb(84, 207, 255)"; }
     navbar_links[i].onmouseout = function() { this.style.color = "rgba(255,255,255,1)"; }
   }
 }

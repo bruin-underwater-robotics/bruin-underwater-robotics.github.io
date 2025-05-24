@@ -40,11 +40,11 @@ $navbar-height: 77px;
   #burNavbar a {
     color: $white;
     transition: 0.2s;
-    font-size: 13.5pt;
+    font-size: 11.5pt;
   }
   #burNavbar a:hover {
     color: $light-blue;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
   #burNavbar .dropdown-toggle {
     margin-left: -2px;

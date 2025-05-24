@@ -1,5 +1,5 @@
 ---
-title: "BUR @ UCLA"
+title: "Bruin Underwater Robotics @ UCLA"
 layout: default
 sitemap: false
 permalink: /
@@ -37,7 +37,7 @@ page_subtitle: "Exploring the Unexplored"
                 The 2023-2024 season marked our debut into the Robosub competition. With our AUV, Ambition, we matched the performance of teams who have competed for over a decade.
             </div>
             <div style="padding: 20px;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/kqbSC0Pxigs?si=ZtVxoc96x7UfsQym" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="bur-video" src="https://www.youtube.com/embed/kqbSC0Pxigs?si=ZtVxoc96x7UfsQym" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="col-md-6 small-margin-top">
@@ -46,7 +46,7 @@ page_subtitle: "Exploring the Unexplored"
                 In 2022-2023, Bruin Underwater Robotics competed in the MATE ROV competition. In only our second year, we qualified for Worlds! 
             </div>
             <div style="padding: 20px;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YQrVBxHxkXk?si=FXuEValt9eUSyfJq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="bur-video" src="https://www.youtube.com/embed/YQrVBxHxkXk?si=FXuEValt9eUSyfJq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </div>
