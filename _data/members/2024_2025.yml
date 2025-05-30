@@ -27,7 +27,7 @@
       photo: assets/images/members/2024_2025/alex_lie.png
     - name: Susie Prieto
       photo: assets/images/members/2024_2025/susie_prieto.png
-  members: Alex Lie, Susie Prieto, Evan Chang, Andrew Nguyen, Jocelyn Gloria, Luca De Angelis, Peter Boyd, Alexander Vera, Louis Prieto
+  members: Alex Lie, Susie Prieto, Evan Chang, Andrew Nguyen, Jocelyn Gloria, Luca De Angelis, Peter Boyd, Alexander Vera, Luis Prieto-Moreno Rubio
 
 - id: Hardware
   name: 'Electronics: Hardware'
@@ -37,7 +37,7 @@
       photo: assets/images/members/2024_2025/daniel_wang.png
     - name: Jonathan Morris
       photo: assets/images/members/2024_2025/jonathan_morris.png
-  members: Daniel Wang, Jonathan Morris, Connor Tung, Matthew Duran Abeja, Tom Thach
+  members: Daniel Wang, Jonathan Morris, Connor Tung, Matthew Duran Abeja, Thong (Tom) Thach
 
 - id: Software
   name: 'Electronics: Software'
@@ -47,4 +47,4 @@
       photo: assets/images/members/2024_2025/edward_sun.jpg
     - name: Nakul Joshi
       photo: assets/images/members/2024_2025/nakul_joshi.jpg
-  members: Edward Sun, Nakul Joshi, Julian Kim, Prabhvir Babra, Allison
+  members: Edward Sun, Nakul Joshi, Julian Kim, Prabhvir Babra, Allison Gao
