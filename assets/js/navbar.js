@@ -17,7 +17,7 @@ hamburger_dark = "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/
 
 function brightenNavbar() {
   navbar.style.backgroundColor = "rgba(255,255,255,1)";
-  navbar.style.borderBottom = "0.5px solid rgba(128,128,128,0.87)";
+  navbar.style.borderBottom = "1px solid rgba(128,128,128,0.87)";
   navbar_toggler.style.border = "0px solid black";
   navbar_toggler_icon.style.backgroundImage = hamburger_dark;
   for (var i = 0; i < navbar_links.length; i++) {
