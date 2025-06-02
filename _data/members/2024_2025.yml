@@ -48,3 +48,10 @@
     - name: Nakul Joshi
       photo: assets/images/members/2024_2025/nakul_joshi.jpg
   members: Edward Sun, Nakul Joshi, Julian Kim, Prabhvir Babra, Allison Gao
+
+- id: MrStokes
+  name: 'Stokes: Mr.'
+  type: mr_stokes
+  leads:
+    - name: Mr. Stokes
+      photo: assets/images/members/2024_2025/mr_stokes.png

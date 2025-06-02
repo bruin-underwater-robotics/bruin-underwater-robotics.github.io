@@ -8,11 +8,6 @@ page_title: "Bruin Underwater Robotics"
 page_subtitle: "Exploring the Unexplored"
 ---
 
-<div class="bur-wide-container" style="margin-bottom:30px;">
-    <img class="bur-photo not-found-photo" src="{{site.base_url}}/assets/images/404_fishtank.jpg">
-    <div class="bur-caption">This site is still under construction -- please check back later!</div>
-</div>
-    
 <div class="bur-wide-container" style="margin-bottom:20px;">
     <div class="row bur-subteam-row gx-5">
         <div class="col-md-6">
@@ -21,7 +16,7 @@ page_subtitle: "Exploring the Unexplored"
         <div class="col-md-6 small-margin-top">
             <h1>What is BUR?</h1>
             <div class="bur-text" style="line-height:1.7">
-                Bruin Underwater Robotics (BUR) is a technical project part of ASME (American Society of Mechanical Engineers) at UCLA, dedicated to creating robots capable of operating in and exploring underwater environments. Underwater robotics is a unique field with applications such as ocean cleanup, marine biology research, and deep sea exploration. These environments provide exceptional engineering challenges that require creative problem-solving involving areas such as fluid dynamics, heat transfer, mechanisms, and circuit design. <br/><br/>
+                <span style="font-weight:700">Bruin Underwater Robotics</span> is a technical project part of the ASME (American Society of Mechanical Engineers) student branch at UCLA, dedicated to creating autonomous underwater vehicles (or AUVs) capable of operating in and exploring underwater environments. Underwater robotics is a unique field with numerous applications: ocean cleanup, marine biology research, deep sea exploration, and more. These environments provide exceptional engineering challenges that require creative problem-solving involving areas such as fluid dynamics, heat transfer, mechanisms, and circuit design. <br/><br/>
 
                 Through the process of designing, fabricating, and testing a robot to perform those tasks under these conditions, members will learn about and draw from many areas of engineering knowledge, skill, and theory to collaboratively produce a fully functional and useful underwater robot.  
             </div>
@@ -34,7 +29,7 @@ page_subtitle: "Exploring the Unexplored"
         <div class="col-md-6 small-margin-top">
             <h2>2023-2024 Robot</h2>
             <div class="bur-text">
-                The 2023-2024 season marked our debut into the Robosub competition. With our AUV, Ambition, we matched the performance of teams who have competed for over a decade.
+                The 2023-2024 season marked our debut in the Robosub competition. With our AUV, Ambition, we matched the performance of teams who have competed for over a decade.
             </div>
             <div style="padding: 20px;">
                 <iframe class="bur-video" src="https://www.youtube.com/embed/kqbSC0Pxigs?si=ZtVxoc96x7UfsQym" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
