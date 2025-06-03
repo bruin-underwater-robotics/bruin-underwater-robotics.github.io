@@ -8,9 +8,9 @@
       <section id="bur-banner">
         <div class="bur-banner">
           {% if page.banner %}
-              <img class="bur-banner-image" src='{{site.base_url}}{{page.banner}}' style='object-fit:cover;{% if page.banner_style%}{{page.banner_style}}{% endif %}'>
+              <img class="bur-banner-image placeholder-glow" src='{{site.base_url}}{{page.banner}}' style='object-fit:cover;{% if page.banner_style%}{{page.banner_style}}{% endif %}'>
           {% else %}
-              <img class="bur-banner-image" src='https://static.wixstatic.com/media/231bbe_a1ec17c784254309ad919840f9c1d4d7~mv2.png/v1/fill/w_1754,h_856,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/BUR%20BG_edited.png' style='opacity:1;'>
+              <img class="bur-banner-image placeholder-glow" src='https://static.wixstatic.com/media/231bbe_a1ec17c784254309ad919840f9c1d4d7~mv2.png/v1/fill/w_1754,h_856,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/BUR%20BG_edited.png' style='opacity:1;'>
           {% endif %}          
           <div class="bur-title-text">
             {{page.page_title}}
