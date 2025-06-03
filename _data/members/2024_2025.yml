@@ -3,20 +3,20 @@
   leads:
     - name: Ethan Lien
       role: Project Lead
-      photo: assets/images/members/2024_2025/ethan_lien.jpg
+      photo: assets/images/members/2024_2025/ethan_lien.webp
 
     - name: Stanley Wei
       role: Project Lead
-      photo: assets/images/members/2024_2025/stanley_wei.png
+      photo: assets/images/members/2024_2025/stanley_wei.webp
 
 - id: Chassis
   name: 'Mechanical: Chassis'
   type: subteam
   leads:
     - name: Lucas Choe
-      photo: assets/images/members/2024_2025/lucas_choe.png
+      photo: assets/images/members/2024_2025/lucas_choe.webp
     - name: Parker Nowakowski
-      photo: assets/images/members/2024_2025/parker_nowakowski.png
+      photo: assets/images/members/2024_2025/parker_nowakowski.webp
   members: Parker Nowakowski, Lucas Choe, Daniel Merino, Annabelle Stiger, Allan Ta, Krish Nirmale
 
 - id: Dive-Ops
@@ -24,9 +24,9 @@
   type: subteam
   leads:
     - name: Alex Lie
-      photo: assets/images/members/2024_2025/alex_lie.png
+      photo: assets/images/members/2024_2025/alex_lie.webp
     - name: Susie Prieto
-      photo: assets/images/members/2024_2025/susie_prieto.png
+      photo: assets/images/members/2024_2025/susie_prieto.webp
   members: Alex Lie, Susie Prieto, Evan Chang, Andrew Nguyen, Jocelyn Gloria, Luca De Angelis, Peter Boyd, Alexander Vera, Luis Prieto-Moreno Rubio
 
 - id: Hardware
@@ -34,9 +34,9 @@
   type: subteam
   leads:
     - name: Daniel Wang
-      photo: assets/images/members/2024_2025/daniel_wang.png
+      photo: assets/images/members/2024_2025/daniel_wang.webp
     - name: Jonathan Morris
-      photo: assets/images/members/2024_2025/jonathan_morris.png
+      photo: assets/images/members/2024_2025/jonathan_morris.webp
   members: Daniel Wang, Jonathan Morris, Connor Tung, Matthew Duran Abeja, Thong (Tom) Thach
 
 - id: Software
@@ -44,9 +44,9 @@
   type: subteam
   leads:
     - name: Edward Sun
-      photo: assets/images/members/2024_2025/edward_sun.jpg
+      photo: assets/images/members/2024_2025/edward_sun.webp
     - name: Nakul Joshi
-      photo: assets/images/members/2024_2025/nakul_joshi.jpg
+      photo: assets/images/members/2024_2025/nakul_joshi.webp
   members: Edward Sun, Nakul Joshi, Julian Kim, Prabhvir Babra, Allison Gao
 
 - id: MrStokes
@@ -54,4 +54,4 @@
   type: mr_stokes
   leads:
     - name: Mr. Stokes
-      photo: assets/images/members/2024_2025/mr_stokes.png
+      photo: assets/images/members/2024_2025/mr_stokes.webp

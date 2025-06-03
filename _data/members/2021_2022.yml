@@ -11,9 +11,9 @@
   type: subteam
   leads:
     - name: Daren He
-      photo: assets/images/members/2021_2022/daren_he.jpg
+      photo: assets/images/members/2021_2022/daren_he.webp
     - name: Reilly Terao
-      photo: assets/images/members/2021_2022/reilly_terao.jpg
+      photo: assets/images/members/2021_2022/reilly_terao.webp
   members: 
     members: Hannah Lin, Heebeom Park, Lorenzo Ontiveros, Nicholas Zhao, William Park
 
@@ -22,9 +22,9 @@
   type: subteam
   leads:
     - name: Jason Inaba
-      photo: assets/images/members/2021_2022/jason_inaba.jpg
+      photo: assets/images/members/2021_2022/jason_inaba.webp
     - name: Alyssa Gee
-      photo: assets/images/members/2021_2022/alyssa_gee.jpg
+      photo: assets/images/members/2021_2022/alyssa_gee.webp
   members: 
     members: Aaron Kuo, Andrew Yang, Atticus Cummings, Benny Hsu, Jonathan Park, Priya Shah, Rosa Son, Shannon Li, Melissa Doan
 
@@ -33,7 +33,7 @@
   type: subteam
   leads:
     - name: Abinav Kannan
-      photo: assets/images/members/2021_2022/abinav_kannan.png
+      photo: assets/images/members/2021_2022/abinav_kannan.webp
   members: 
     members: Benji Cruz, James King, Phillip Nguyen, Rita Gimelshein, Vani Sharma
 
@@ -42,9 +42,9 @@
   type: subteam
   leads:
     - name: Roger Truong
-      photo: assets/images/members/2021_2022/roger_truong.jpg
+      photo: assets/images/members/2021_2022/roger_truong.webp
     - name: Scott Cao
-      photo: assets/images/members/2021_2022/scott_cao.jpeg
+      photo: assets/images/members/2021_2022/scott_cao.webp
   members: 
     members: Claire Chen, Ethan Lien, Ingrid Lee, Sandra Li, Stephen Masson
 
@@ -53,9 +53,9 @@
   type: subteam
   leads:
     - name: John McCullough
-      photo: assets/images/members/2021_2022/john_mccullough.jpg
+      photo: assets/images/members/2021_2022/john_mccullough.webp
     - name: Zehao Rong
-      photo: assets/images/members/2021_2022/zehao_rong.png
+      photo: assets/images/members/2021_2022/zehao_rong.webp
   members: 
     - name: Chassis & Propulsion
       members: Karina Ting
@@ -71,9 +71,9 @@
   type: subteam
   leads:
     - name: Paul Ramirez
-      photo: assets/images/members/2021_2022/paul_ramirez.jpg
+      photo: assets/images/members/2021_2022/paul_ramirez.webp
     - name: Maya Wiley
-      photo: assets/images/members/2021_2022/maya_wiley.jpg
+      photo: assets/images/members/2021_2022/maya_wiley.webp
   members:
     - name: Chassis & Propulsion
       members: Sruti Munagala

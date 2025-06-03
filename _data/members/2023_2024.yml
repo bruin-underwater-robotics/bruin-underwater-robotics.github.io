@@ -3,20 +3,20 @@
   leads:
     - name: Scott Cao
       role: Team President
-      photo: assets/images/members/2023_2024/scott_cao.jpg
+      photo: assets/images/members/2023_2024/scott_cao.webp
 
     - name: Alex Xu
       role: Chief Executive Officer
-      photo: assets/images/members/2023_2024/alex_xu.png
+      photo: assets/images/members/2023_2024/alex_xu.webp
 
 - id: Chassis
   name: Mechanical - Chassis
   type: subteam
   leads:
     - name: Ethan Lien
-      photo: assets/images/members/2023_2024/ethan_lien.png
+      photo: assets/images/members/2023_2024/ethan_lien.webp
     - name: Alan Nguyen
-      photo: assets/images/members/2023_2024/alan_nguyen.png
+      photo: assets/images/members/2023_2024/alan_nguyen.webp
   members: Ethan Lien, Alan Nguyen, Allan Ta, Daniel Merino, Jason Chen, Jonah Pawlak, Parker Nowakowski, Ryan Woo, Sonni Montanez, Richard Zhou, Archer Phillips
 
 - id: Dive-Ops
@@ -24,9 +24,9 @@
   type: subteam
   leads:
     - name: Scott Bloom
-      # photo: assets/images/members/2023_2024/scott_bloom.jpg
+      # photo: assets/images/members/2023_2024/scott_bloom.webp
     - name: Allison Liu
-      # photo: assets/images/members/2023_2024/allison_liu.jpg
+      # photo: assets/images/members/2023_2024/allison_liu.webp
   members: Scott Bloom, Allison Liu, Alex Lie, Susie Prieto, Emilie Liao, Dane Kaestner, Ashutosh Kandala
 
 - id: Hardware
@@ -34,9 +34,9 @@
   type: subteam
   leads:
     - name: Sophia Du
-      photo: assets/images/members/2023_2024/sophia_du.png
+      photo: assets/images/members/2023_2024/sophia_du.webp
     - name: Daniel Wang
-      photo: assets/images/members/2023_2024/daniel_wang.png
+      photo: assets/images/members/2023_2024/daniel_wang.webp
   members: Sophia Du, Daniel Wang, Lucas Choe, Petunia Rizo, Amber Wang
 
 - id: Software
@@ -44,7 +44,7 @@
   type: subteam
   leads:
     - name: Stanley Wei
-      photo: assets/images/members/2023_2024/stanley_wei.jpg
+      photo: assets/images/members/2023_2024/stanley_wei.webp
     - name: Edward Sun
-      # photo: assets/images/members/2023_2024/edward_sun.png
+      # photo: assets/images/members/2023_2024/edward_sun.webp
   members: Stanley Wei, Edward Sun, Nakul Joshi, Lindsay Qin, Aiden Wong, Kelsey Shan, Jeffery Jiang, Zach DeSoto, Liam Meagher 

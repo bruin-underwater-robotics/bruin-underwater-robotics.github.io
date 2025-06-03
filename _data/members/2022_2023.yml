@@ -3,22 +3,22 @@
   leads:
     - name: Scott Cao
       role: Chief Executive Officer
-      photo: assets/images/members/2022_2023/scott_cao.jpg
+      photo: assets/images/members/2022_2023/scott_cao.webp
 
     - name: Daren He
       role: Team President
-      photo: assets/images/members/2022_2023/daren_he.jpg
+      photo: assets/images/members/2022_2023/daren_he.webp
 
 - id: Aquaframe
   name: Mechanical - Aquaframe
   type: subteam
   leads:
     - name: Gregor Macdonald
-      photo: assets/images/members/2022_2023/gregor_macdonald.jpg
+      photo: assets/images/members/2022_2023/gregor_macdonald.webp
     - name: George Colaco
-      photo: assets/images/members/2022_2023/george_colaco.png
+      photo: assets/images/members/2022_2023/george_colaco.webp
     - name: Andrew Yang
-      photo: assets/images/members/2022_2023/andrew_yang.png
+      photo: assets/images/members/2022_2023/andrew_yang.webp
   members: Junha Park, Scott Bloom, Jacob Freund, Sharia Alam, Luke Woodhouse
 
 - id: Dive-Ops
@@ -26,11 +26,11 @@
   type: subteam
   leads:
     - name: Ethan Lien
-      photo: assets/images/members/2022_2023/ethan_lien.png
+      photo: assets/images/members/2022_2023/ethan_lien.webp
     - name: Abinav Kannan
-      photo: assets/images/members/2022_2023/abinav_kannan.png
+      photo: assets/images/members/2022_2023/abinav_kannan.webp
     - name: Bahaa Lawrence
-      photo: assets/images/members/2022_2023/bahaa_lawrence.png
+      photo: assets/images/members/2022_2023/bahaa_lawrence.webp
   members: Alex Mayo, Allison Liu, Priya Shah, Alexander Chen, Hy Ly, Alyssa Gee
 
 - id: Electronics
@@ -38,11 +38,11 @@
   type: subteam
   leads:
     - name: Alex Xu
-      photo: assets/images/members/2022_2023/alex_xu.png
+      photo: assets/images/members/2022_2023/alex_xu.webp
     - name: Robert Aguilar
-      photo: assets/images/members/2022_2023/robert_aguilar.png
+      photo: assets/images/members/2022_2023/robert_aguilar.webp
     - name: Benji Cruz
-      photo: assets/images/members/2022_2023/benji_cruz.jpg
+      photo: assets/images/members/2022_2023/benji_cruz.webp
     - name: Vani Sharma
-      photo: assets/images/members/2022_2023/vani_sharma.png
+      photo: assets/images/members/2022_2023/vani_sharma.webp
   members: Sophia Du, Stanley Wei, Daniel Hughes, Nikita Burger, Cameron Leary

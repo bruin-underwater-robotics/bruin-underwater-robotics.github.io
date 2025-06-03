@@ -1,7 +1,7 @@
 ---
 title: "Join the Team"
 layout: default
-banner: /assets/images/history/2022_2023/team_photo2_2022_2023.jpg
+banner: /assets/images/history/2022_2023/team_photo2_2022_2023.webp
 banner_style: "background-position: 50% 37%;opacity:0.6"
 permalink: /join-us
 page_title: "Join the Team"
@@ -26,7 +26,7 @@ page_subtitle: ""
         </div>
         <div class="col small-margin-top">
             <a href="https://join.slack.com/t/bruinunderwaterrobot/shared_invite/zt-2xaheojvm-qk9fkQzoyZHKEu1yJLSS5Q">
-                <img class="bur-qr-code" src="{{site.base_url}}/assets/images/slack_qr_code.png">
+                <img class="bur-qr-code" src="{{site.base_url}}/assets/images/slack_qr_code.webp">
             </a>
             <div class="row" style="text-align:center;margin-top:10px;">
                 <a href="https://join.slack.com/t/bruinunderwaterrobot/shared_invite/zt-2xaheojvm-qk9fkQzoyZHKEu1yJLSS5Q">Join our Slack!</a>
