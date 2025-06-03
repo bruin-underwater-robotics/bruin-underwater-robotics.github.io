@@ -3,7 +3,7 @@ title: "Our History"
 layout: small_banner
 permalink: /history
 banner: /assets/images/history/2020_2021/tripati.webp
-banner_style: "background-position: 50% 50%;"
+banner_style: "object-position: 50% 50%;"
 page_title: "Our History"
 ---
 

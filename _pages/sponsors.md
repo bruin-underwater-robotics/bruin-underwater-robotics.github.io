@@ -3,7 +3,7 @@ title: "Our Sponsors"
 layout: small_banner
 permalink: /sponsors
 banner: /assets/images/history/2022_2023/smc_bot.webp
-banner_style: "background-position: 50% 40%;"
+banner_style: "object-position: 50% 40%;"
 page_title: "Our Sponsors"
 ---
 

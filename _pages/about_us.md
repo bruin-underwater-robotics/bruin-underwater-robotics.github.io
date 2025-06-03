@@ -4,7 +4,7 @@ layout: small_banner
 sitemap: false
 permalink: /about-us
 banner: /assets/images/history/2022_2023/hardware.webp
-banner_style: "background-position: 50% 42%;"
+banner_style: "object-position: 50% 42%;"
 page_title: "About Us"
 ---
 <section style="background-color:rgb(180,213,251);padding-top:40px;padding-bottom:40px;margin-top:-25px;">

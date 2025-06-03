@@ -1,8 +1,8 @@
 ---
 title: "Join the Team"
-layout: default
+layout: small_banner
 banner: /assets/images/history/2022_2023/team_photo2_2022_2023.webp
-banner_style: "background-position: 50% 37%;opacity:0.6"
+banner_style: "object-position: 50% 36%;opacity:0.4"
 permalink: /join-us
 page_title: "Join the Team"
 page_subtitle: ""
