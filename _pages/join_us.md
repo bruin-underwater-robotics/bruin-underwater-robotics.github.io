@@ -26,7 +26,7 @@ page_subtitle: ""
         </div>
         <div class="col small-margin-top">
             <a href="https://join.slack.com/t/bruinunderwaterrobot/shared_invite/zt-2xaheojvm-qk9fkQzoyZHKEu1yJLSS5Q">
-                <img class="bur-qr-code" src="{{site.base_url}}/assets/images/slack_qr_code.webp">
+                <img class="bur-qr-code" src="{{site.base_url}}/assets/images/slack_qr_code.webp" decoding="async">
             </a>
             <div class="row" style="text-align:center;margin-top:10px;">
                 <a href="https://join.slack.com/t/bruinunderwaterrobot/shared_invite/zt-2xaheojvm-qk9fkQzoyZHKEu1yJLSS5Q">Join our Slack!</a>

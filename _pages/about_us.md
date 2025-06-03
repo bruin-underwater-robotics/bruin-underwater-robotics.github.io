@@ -17,7 +17,7 @@ page_title: "About Us"
                 </div>
             </div>
             <div class="col-xl-6 small-margin-top">
-                <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2023_2024/alex_lab_work.webp">
+                <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2023_2024/alex_lab_work.webp" decoding="async">
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@ page_title: "About Us"
     <div class="bur-wide-container">
         <div class="row bur-subteam-row gx-5">
             <div class="col-xl-6">
-                <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2023_2024/alan_ethan.webp">
+                <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2023_2024/alan_ethan.webp" loading="lazy" decoding="async">
             </div>
             <div class="col small-margin-top">
                 <h1>the best education happens in the lab</h1>
@@ -50,7 +50,7 @@ page_title: "About Us"
                 </div>
             </div>
             <div class="col small-margin-top">
-                <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2021_2022/bur_comp_2022.webp">
+                <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2021_2022/bur_comp_2022.webp" loading="lazy" decoding="async">
                 <div class="bur-caption">2022 BUR MateROV Competition Team</div>
             </div>
         </div>
