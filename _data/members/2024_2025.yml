@@ -50,7 +50,7 @@
   members: Edward Sun, Nakul Joshi, Julian Kim, Prabhvir Babra, Allison Gao
 
 - id: MrStokes
-  name: 'Stokes: Mr.'
+  name: 'Mr. Stokes'
   type: mr_stokes
   leads:
     - name: Mr. Stokes

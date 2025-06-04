@@ -20,7 +20,7 @@ page_title: "Our Sponsors"
     <div class="row gy-5">
         {% for sponsor in site.data.sponsors %}
             <div class="col-sm-4">
-                <img class="bur-sponsor-photo" src="{{site.base_url}}/{{sponsor.photo}}" loading="lazy" decoding="async">
+                <img class="bur-sponsor-photo" src="{{site.base_url}}/{{sponsor.photo}}" loading="lazy" decoding="async" style="margin:auto;">
             </div>
         {% endfor %}
     </div>

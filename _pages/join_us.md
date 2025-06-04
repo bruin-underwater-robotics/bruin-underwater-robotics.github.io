@@ -5,7 +5,6 @@ banner: /assets/images/history/2022_2023/team_photo2_2022_2023.webp
 banner_style: "object-position: 50% 36%;opacity:0.4"
 permalink: /join-us
 page_title: "Join the Team"
-page_subtitle: ""
 ---
 
 <div class="bur-wide-container" style="margin-bottom:20px;margin-top:10px;">

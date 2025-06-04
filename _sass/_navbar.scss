@@ -63,6 +63,8 @@ $navbar-height: 77px;
 }
 #burNavbar a {
   font-weight: 700;
+  font-size: 12pt;
+  letter-spacing: 0.1pt;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #burNavbar img {
@@ -77,7 +79,7 @@ $navbar-height: 77px;
   height: 45px;
 }
 #burNavbar .navbar-toggler {
-  border: 1.5px solid $dark-gray;
+  border: 0px solid $dark-gray;
   -webkit-transition:  border-radius 0.4s;
  -moz-transition:  border-radius 0.4s;
  -o-transition:  border-radius 0.4s;

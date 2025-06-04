@@ -2,7 +2,6 @@
 <html>
   {% include head.html %}
   <body>
-    <img src="url({{site.base_url}}{{page.banner}})" style="display:none;">
     {% include navbar.html %}
     <div id={{ page.name | remove: ".md" }}">
       <section id="bur-banner">
@@ -12,7 +11,7 @@
           {% else %}
               <img class="bur-banner-image placeholder-glow" src='https://static.wixstatic.com/media/231bbe_a1ec17c784254309ad919840f9c1d4d7~mv2.png/v1/fill/w_1754,h_856,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/BUR%20BG_edited.png' style='opacity:1;'>
           {% endif %} 
-          <div class="bur-title-text">
+          <div class="bur-title-text bur-title-small">
             {{page.page_title}}
             {% if page.page_subtitle %}
               <div style="margin-top: 15px;" class="bur-subtitle-text">{{page.page_subtitle}}</div>

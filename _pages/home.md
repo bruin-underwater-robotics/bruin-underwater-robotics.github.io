@@ -1,5 +1,4 @@
 ---
-title: "Bruin Underwater Robotics @ UCLA"
 layout: default
 sitemap: false
 permalink: /
