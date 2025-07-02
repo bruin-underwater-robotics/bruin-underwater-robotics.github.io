@@ -1,8 +1,11 @@
 - title: "Home"
   url: "/"
 
-- title: "About Us"
-  url: "/about-us"
+# - title: "About Us"
+#   url: "/about-us"
+
+- title: "Our Robot"
+  url: "/2024-2025"
 
 - title: "Meet the Team"
   url: "/members/2024-2025"
@@ -23,5 +26,5 @@
 - title: "Sponsors"
   url: "/sponsors"
 
-- title: "Join the Team"
+- title: "Join Us"
   url: "/join-us"

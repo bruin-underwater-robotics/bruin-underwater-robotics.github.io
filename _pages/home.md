@@ -23,31 +23,8 @@ page_subtitle: "Exploring the Unexplored"
     </div>
 </div>
 
-<div class="bur-wide-container" style="margin-bottom:20px;">
-    <div class="row bur-subteam-row">
-        <div class="col-md-6 small-margin-top">
-            <h2>2023-2024 Robot</h2>
-            <div class="bur-text">
-                The 2023-2024 season marked our debut in the Robosub competition. With our AUV, Ambition, we matched the performance of teams who have competed for over a decade.
-            </div>
-            <div style="padding: 20px;">
-                <iframe class="bur-video" src="https://www.youtube.com/embed/kqbSC0Pxigs?si=ZtVxoc96x7UfsQym" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-md-6 small-margin-top">
-            <h2>2022-2023 Robot</h2>
-            <div class="bur-text">
-                In 2022-2023, Bruin Underwater Robotics competed in the MATE ROV competition. In only our second year, we qualified for Worlds! 
-            </div>
-            <div style="padding: 20px;">
-                <iframe class="bur-video" src="https://www.youtube.com/embed/YQrVBxHxkXk?si=FXuEValt9eUSyfJq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="bur-wide-container" style="margin-bottom:30px;">
-    <div class="row bur-subteam-row">
+    <div class="row bur-subteam-row gx-5">
         <div class="col">
             <h1>Meet the Team</h1>
             <div class="bur-text">
@@ -64,17 +41,17 @@ page_subtitle: "Exploring the Unexplored"
 </div>
 
 <div class="bur-wide-container">
-    <div class="row bur-subteam-row">
+    <div class="row bur-subteam-row gx-5">
         <div class="col">
-            <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2023_2024/bot_lab_2324.webp" loading="lazy" decoding="async">
+            <img class="bur-photo" src="{{site.base_url}}/assets/images/history/2023_2024/bot_lab_2324.webp" loading="lazy" decoding="async">
         </div>
         <div class="col small-margin-top">
             <h1>Learn More</h1>
             <div class="bur-text">
                 Interested to learn about our progress in designing, building, and testing our underwater robot? Click here to learn more about our most recent underwater vehicle.
             </div>
-            <a class="bur-button-text" href="{{site.base_url}}/history/2023-2024">
-                <button class="bur-button">Our History</button>
+            <a class="bur-button-text" href="{{site.base_url}}/2024-2025">
+                <button class="bur-button">Our Robot</button>
             </a>
         </div>
     </div>
