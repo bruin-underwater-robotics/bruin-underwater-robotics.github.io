@@ -233,6 +233,12 @@ $banner-height-small-mobile: 300px;
 }
 
 /* Footer */
+@media (max-width: 800px) {
+  .bur-footer-col {
+    margin-bottom: 20px;
+  }
+}
+
 .bur-footer {
   background-color: $light-green !important;
   min-height: 100px;

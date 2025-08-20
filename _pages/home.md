@@ -43,7 +43,7 @@ page_subtitle: "Exploring the Unexplored"
 <div class="bur-wide-container">
     <div class="row bur-subteam-row gx-5">
         <div class="col">
-            <img class="bur-photo" src="{{site.base_url}}/assets/images/history/2023_2024/bot_lab_2324.webp" loading="lazy" decoding="async">
+            <img class="bur-photo home-photo" src="{{site.base_url}}/assets/images/history/2023_2024/bot_lab_2324.webp" loading="lazy" decoding="async">
         </div>
         <div class="col small-margin-top">
             <h1>Learn More</h1>
