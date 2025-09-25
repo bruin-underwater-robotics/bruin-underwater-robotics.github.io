@@ -10,25 +10,30 @@ page_title: "Join the Team"
 <div class="bur-wide-container" style="margin-bottom:20px;margin-top:10px;">
     <div class="row bur-subteam-row" markdown="0">
         <div class="col">
-            <h2>Join our Slack!</h2>
+            <h2>Join our Discord!</h2>
             <div class="bur-text">
-                Slack is where all of our communication takes place -- to join BUR, all you have to do is join our Slack. Feel free to message either of our leads (Ethan Lien and Stanley Wei) if you're a new member or have any questions!
+                Discord is where all of our communication takes place -- to join BUR, all you have to do is join our Discord. Feel free to message either of our leads (Lucas Choe and Stanley Wei) if you're a new member or have any questions!
             </div><br/>
 
             <div class="bur-text">
-                In addition, we also have weekly GMs <b>7-8 PM in the ASME Lab (Boelter 2730C)</b>. Come show up and talk to any of our leads in-person during the meeting!
-            </div><br/>
+                Alternatively, come show up and talk to our leads in-person during any of our meetings:
+                <ol>
+                    <li>General Meetings: <b>Mondays 7-8 PM in Engineering IV 38-138</b></li>
+                    <li>Workdays: <b>Saturdays 10 AM-1 PM in the ASME Lab (Boelter Hall 2730C)</b></li>
+                    <li style="list-style-type:square"><i>Times are given for the Fall 2025 quarter</i></li>
+                </ol>
+            </div>
 
             <div class="bur-text">
                 If you have any other questions, please contact: <b>bur.asmebruins@gmail.com</b>
             </div>
         </div>
-        <div class="col small-margin-top">
-            <a href="https://join.slack.com/t/bruinunderwaterrobot/shared_invite/zt-2xaheojvm-qk9fkQzoyZHKEu1yJLSS5Q">
-                <img class="bur-qr-code" src="{{site.base_url}}/assets/images/slack_qr_code.webp" decoding="async">
+        <div class="col-sm-3 col-md-4 small-margin-top">
+            <a href="https://discord.gg/BZAKqDh8Yw">
+                <img class="bur-qr-code" style="max-width:100%;" src="{{site.base_url}}/assets/images/discord_qr_code.webp" decoding="async">
             </a>
             <div class="row" style="text-align:center;margin-top:10px;">
-                <a href="https://join.slack.com/t/bruinunderwaterrobot/shared_invite/zt-2xaheojvm-qk9fkQzoyZHKEu1yJLSS5Q">Join our Slack!</a>
+                <a href="https://discord.gg/BZAKqDh8Yw">Join our Discord!</a>
             </div>
         </div>
     </div>
