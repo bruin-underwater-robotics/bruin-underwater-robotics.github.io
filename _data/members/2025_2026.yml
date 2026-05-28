@@ -1,0 +1,48 @@
+- id: leads
+  type: leads
+  leads:
+    - name: Lucas Choe
+      role: Project Lead
+      photo: assets/images/members/2025_2026/lucas_choe.webp
+
+    - name: Stanley Wei
+      role: Project Lead
+      photo: assets/images/members/2025_2026/stanley_wei.webp
+
+- id: Chassis
+  name: 'Mechanical: Chassis'
+  type: subteam
+  leads:
+    - name: Annabelle Stiger
+      photo: assets/images/members/2025_2026/annabelle_stiger.webp
+    - name: Mollie Naylor
+      photo: assets/images/members/2025_2026/mollie_naylor.webp
+  members: Annabelle Stiger, Mollie Naylor, Tanisha Pidshetti, Joseph Claypool, Howard Ding, Henry Liu
+
+- id: Dive-Ops
+  name: 'Mechanical: Dive-Ops'
+  type: subteam
+  leads:
+    - name: Peter Boyd
+      photo: assets/images/members/2025_2026/peter_boyd.webp
+    - name: Luis Prieto-Moreno Rubio
+      photo: assets/images/members/2025_2026/luis_prieto.webp
+  members: Peter Boyd, Luis Prieto-Moreno Rubio, Alex Lie
+
+- id: Hardware
+  name: 'Electronics: Hardware'
+  type: subteam
+  leads:
+    - name: Lucas Choe
+      photo: assets/images/members/2025_2026/lucas_choe.webp
+  members: Lucas Choe, Connor Tung, Asim Shariff, Matthew Duran Abeja, Dyllan Goldstein, Steven Hsu, Jackie Lei
+
+- id: Software
+  name: 'Electronics: Software'
+  type: subteam
+  leads:
+    - name: Julian Kim
+      photo: assets/images/members/2025_2026/julian_kim.webp
+    - name: Aaron Fan
+      photo: assets/images/members/2025_2026/aaron_fan.webp
+  members: Julian Kim, Aaron Fan, Jared Ashman, Vidhu Venugopal, Aansh Singh, Nessa Lee, Daniel Koh, Kaden Do, Edward Sun

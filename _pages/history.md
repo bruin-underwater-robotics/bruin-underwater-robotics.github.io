@@ -28,6 +28,7 @@ page_title: "Our History"
 <div class="row bur-subteam-row">
     <div class="col-xl-5">
         <h1>Past Teams</h1>
+        <a href="{{site.base_url}}/members/2024-2025">2024-2025</a> <br style="line-height:30px;"/>
         <a href="{{site.base_url}}/members/2023-2024">2023-2024</a> <br style="line-height:30px;"/>
         <a href="{{site.base_url}}/members/2022-2023">2022-2023</a> <br style="line-height:30px;"/>
         <a href="{{site.base_url}}/members/2021-2022">2021-2022</a> <br style="line-height:30px;"/>
