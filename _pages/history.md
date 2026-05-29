@@ -11,6 +11,7 @@ page_title: "Our History"
     <div class="row bur-subteam-row">
         <div class="col-xl-5">
             <h1>Past Seasons</h1>
+            <a href="{{site.base_url}}/history/2024-2025">2024-2025 Season</a> <br style="line-height:30px;"/>
             <a href="{{site.base_url}}/history/2023-2024">2023-2024 Season</a> <br style="line-height:30px;"/>
             <a href="{{site.base_url}}/history/2022-2023">2022-2023 Season</a> <br style="line-height:30px;"/>
             <a href="{{site.base_url}}/history/2021-2022">2021-2022 Season</a> <br style="line-height:30px;"/>
